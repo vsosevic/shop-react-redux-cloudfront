@@ -1,3 +1,5 @@
+org: vsosevic
+app: node-in-aws-web
 service: node-in-aws-web
 
 frameworkVersion: '2'
@@ -5,6 +7,7 @@ frameworkVersion: '2'
 provider:
   name: aws
   runtime: nodejs12.x
+  region: eu-west-1
   # setup profile for AWS CLI.
   # profile: node-aws
 
@@ -17,7 +20,7 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: rs-aws-nodejs-bucket-cloudfront
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 

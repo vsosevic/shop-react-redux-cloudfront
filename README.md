@@ -45,9 +45,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Links to the app
-
-S3 bucket direct url: http://rs-aws-nodejs-bucket.s3-website-eu-west-1.amazonaws.com/
-Cloudfront manual deployment: https://dl34hhuh3inh2.cloudfront.net/
-Cloudfront auto deployment: https://d2tfzo6t8b2s44.cloudfront.net/
+Cloudfront auto deployment: https://d33gs61lq4x7wg.cloudfront.net/
 
 
